@@ -37,27 +37,37 @@ function App() {
         <p>At Perdomo's Painting, no matter your painting needs we stand with you every step of the way.</p>
         <div className="services-container">
           <div className="service">
-            <img src={require('../src/images/exterior.jpg')} alt="Exterior Painting" />
+            <div class="image-wrapper">
+              <img src={require('../src/images/exterior.jpg')} alt="Exterior Painting" />
+            </div>
             <h3>Exterior</h3>
             <p>Our exterior painting services are designed to enhance the curb appeal and protect your home from the elements.</p>
           </div>
           <div className="service">
-            <img src={require('../src/images/interior.jpeg')} alt="Interior Painting" />
+            <div class="image-wrapper">
+              <img src={require('../src/images/interior.jpeg')} alt="Interior Painting" />
+            </div>
             <h3>Interior</h3>
             <p>From living rooms and bedrooms to kitchens and hallways, we pay careful attention to detail, ensuring clean lines and even coverage.</p>
           </div>
           <div className="service">
+          <div class="image-wrapper">
             <img src={require("../src/images/kitchen.jpeg")} alt="Cabinet Painting" />
+            </div>
             <h3>Cabinets</h3>
             <p>With a commitment to exceptional craftsmanship you can trust Perdomo's Painting to transform your cabinets into stunning focal points.</p>
           </div>
           <div className="service">
-            <img src={require("../src/images/furniture.jpeg")} alt="Furniture Painting" />
+            <div class="image-wrapper">
+              <img src={require("../src/images/furniture.jpeg")} alt="Furniture Painting" />
+            </div>
             <h3>Furniture</h3>
             <p>Whether you're looking to refresh an old piece or completely transform your décor, we work to exceed your expectations and breathe new life into your living room, kitchen, or bathroom.</p>
           </div>
           <div className="service">
-            <img src={require("../src/images/driveway.jpeg")} alt="Driveway Painting" />
+            <div class="image-wrapper">
+              <img src={require("../src/images/driveway.jpeg")} alt="Driveway Painting" />
+            </div>
             <h3>Driveway</h3>
             <p>Our team is fully equipped to refresh indoor areas, enhance garages, and revitalize patios, providing a complete solution for all your space improvement needs.</p>
           </div>
